@@ -105,7 +105,7 @@ const categoryList = () => {
   btnContainer.innerHTML = categoryBtns;
   const filterBtns = document.querySelectorAll(".btn-item");
 
-  //filter menu
+  //filter
   filterBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       const category = e.currentTarget.dataset.id;
