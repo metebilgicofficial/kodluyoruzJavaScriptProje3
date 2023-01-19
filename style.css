@@ -1,19 +1,22 @@
 * {
   box-sizing: border-box;
+  background-color: bisque;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f1f5f8;
-  font-family: "Zilla Slab", serif;
+  background-color: bisque; 
+ font-family: "Zilla Slab", serif;
+
 }
 
 h2 {
   font-family: "Great Vibes", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   color: #ff6a23;
+  padding-top: 1rem;
 }
 .menu {
   margin-top: 20px;
@@ -24,25 +27,31 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 40px 0;
+  
 }
 .btn-item {
   margin-left: 15px;
+  background-color:#f79a10;
+  font-size: larger;
+  border-radius: 75px;
 }
 
 .photo {
   width: 30%;
   height: 175px;
   object-fit: cover;
-  border: 0.25rem solid black;
-  border-radius: 10px;
+  border: 0.20rem solid black;
+  border-radius: 50px;
 }
 .menu-items {
   display: flex;
   margin: 20px 0;
+  
 }
 .menu-info {
   margin-left: 20px;
   width: 100%;
+  
 }
 .menu-title {
   display: flex;
@@ -52,8 +61,11 @@ h2 {
 
 h4 {
   color: #e00a00;
+ 
 }
 
 .menu-text {
   padding-top: 20px;
+  font-family: "Great Vibes", cursive;
+  font-size:x-large;
 }
